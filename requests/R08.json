@@ -1,0 +1,19 @@
+{
+  "id": "R08",
+  "submitted": "2026-10-29T20:05:00+01:00",
+  "applicant": {
+    "name": "Prof. Elena Rossi",
+    "organisation": "Comprehensive Cancer Centre, epidemiology group",
+    "country": "IT"
+  },
+  "requested_as": "health data request",
+  "requested_format": "anonymised statistics",
+  "purpose": "Research on body weight as a risk factor in breast cancer, to inform prevention advice.",
+  "question": "What is the mean BMI of women with breast cancer, by region?",
+  "definitions": [
+    "Breast cancer = any condition with an ICD-10 code starting with C50.",
+    "Women = sex 'female'.",
+    "Use the latest BMI (LOINC 39156-5) per patient; patients without a BMI are left out.",
+    "Report per region: number of women with a BMI and mean BMI with one decimal."
+  ]
+}

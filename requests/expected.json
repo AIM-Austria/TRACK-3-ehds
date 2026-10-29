@@ -1,0 +1,218 @@
+{
+  "R01": {
+    "decision": "APPROVE_STATISTICAL",
+    "articles": [
+      "53",
+      "69"
+    ],
+    "reason": "Research and public health are allowed purposes (Art. 53). Statistics answer the question (Art. 69).",
+    "answer": {
+      "Burgenland": {
+        "adults": 532,
+        "type2_diabetes": 33,
+        "prevalence_pct": 6.2
+      },
+      "Kärnten": {
+        "adults": 885,
+        "type2_diabetes": 71,
+        "prevalence_pct": 8.0
+      },
+      "Niederösterreich": {
+        "adults": 2740,
+        "type2_diabetes": 227,
+        "prevalence_pct": 8.3
+      },
+      "Oberösterreich": {
+        "adults": 2473,
+        "type2_diabetes": 173,
+        "prevalence_pct": 7.0
+      },
+      "Salzburg": {
+        "adults": 908,
+        "type2_diabetes": 75,
+        "prevalence_pct": 8.3
+      },
+      "Steiermark": {
+        "adults": 2052,
+        "type2_diabetes": 164,
+        "prevalence_pct": 8.0
+      },
+      "Tirol": {
+        "adults": 1240,
+        "type2_diabetes": 110,
+        "prevalence_pct": 8.9
+      },
+      "Vorarlberg": {
+        "adults": 639,
+        "type2_diabetes": 36,
+        "prevalence_pct": 5.6
+      },
+      "Wien": {
+        "adults": 3247,
+        "type2_diabetes": 263,
+        "prevalence_pct": 8.1
+      }
+    }
+  },
+  "R02": {
+    "decision": "REJECT",
+    "articles": [
+      "54"
+    ],
+    "reason": "Using health data to set insurance premiums is prohibited (Art. 54).",
+    "answer": null
+  },
+  "R03": {
+    "decision": "APPROVE_STATISTICAL",
+    "articles": [
+      "53",
+      "69"
+    ],
+    "reason": "Policy-making and improving care are allowed purposes (Art. 53). Statistics answer the question (Art. 69).",
+    "answer": {
+      "65-74": {
+        "af_patients": 81,
+        "without_oac": 30,
+        "share_without_oac_pct": 37.0
+      },
+      "75-84": {
+        "af_patients": 154,
+        "without_oac": 37,
+        "share_without_oac_pct": 24.0
+      },
+      "85+": {
+        "af_patients": 78,
+        "without_oac": 22,
+        "share_without_oac_pct": 28.2
+      }
+    }
+  },
+  "R04": {
+    "decision": "REJECT",
+    "articles": [
+      "54"
+    ],
+    "reason": "Advertising and marketing are prohibited (Art. 54).",
+    "answer": null
+  },
+  "R05": {
+    "decision": "APPROVE_SPE",
+    "articles": [
+      "53",
+      "66",
+      "68",
+      "73"
+    ],
+    "reason": "Training and testing algorithms is an allowed purpose (Art. 53). The model needs patient-level data, so pseudonymised data is justified (Art. 66). Access only under a data permit inside a secure processing environment (Art. 68, 73).",
+    "answer": {
+      "cohort_size": 1152
+    }
+  },
+  "R06": {
+    "decision": "REJECT",
+    "articles": [
+      "54"
+    ],
+    "reason": "Using health data for decisions about employees is prohibited (Art. 54). Matching it with an employee list would also re-identify people.",
+    "answer": null
+  },
+  "R07": {
+    "decision": "APPROVE_STATISTICAL",
+    "articles": [
+      "53",
+      "69"
+    ],
+    "reason": "Official statistics are an allowed purpose (Art. 53). Statistics answer the question (Art. 69).",
+    "answer": {
+      "Burgenland": 28,
+      "Kärnten": 69,
+      "Niederösterreich": 187,
+      "Oberösterreich": 194,
+      "Salzburg": 69,
+      "Steiermark": 140,
+      "Tirol": 86,
+      "Vorarlberg": 61,
+      "Wien": 245
+    }
+  },
+  "R08": {
+    "decision": "APPROVE_STATISTICAL",
+    "articles": [
+      "53",
+      "69"
+    ],
+    "reason": "Research is an allowed purpose (Art. 53). Statistics answer the question (Art. 69). Small cells are suppressed.",
+    "answer": {
+      "Burgenland": {
+        "women_with_bmi": "<10",
+        "mean_bmi": "suppressed"
+      },
+      "Kärnten": {
+        "women_with_bmi": "<10",
+        "mean_bmi": "suppressed"
+      },
+      "Niederösterreich": {
+        "women_with_bmi": 15,
+        "mean_bmi": 27.2
+      },
+      "Oberösterreich": {
+        "women_with_bmi": 11,
+        "mean_bmi": 27.5
+      },
+      "Salzburg": {
+        "women_with_bmi": "<10",
+        "mean_bmi": "suppressed"
+      },
+      "Steiermark": {
+        "women_with_bmi": 13,
+        "mean_bmi": 26.3
+      },
+      "Tirol": {
+        "women_with_bmi": "<10",
+        "mean_bmi": "suppressed"
+      },
+      "Vorarlberg": {
+        "women_with_bmi": "<10",
+        "mean_bmi": "suppressed"
+      },
+      "Wien": {
+        "women_with_bmi": 14,
+        "mean_bmi": 26.6
+      }
+    }
+  },
+  "R09": {
+    "decision": "APPROVE_STATISTICAL",
+    "articles": [
+      "53",
+      "66",
+      "69"
+    ],
+    "reason": "Teaching and research are allowed purposes (Art. 53). Statistics answer the question, so pseudonymised records are not justified (Art. 66). Approved as statistics instead (Art. 69).",
+    "answer": {
+      "18-49": {
+        "adults_with_hypertension": 359,
+        "ace_inhibitor_pct": 39.6,
+        "arb_pct": 33.4
+      },
+      "50-64": {
+        "adults_with_hypertension": 1057,
+        "ace_inhibitor_pct": 41.7,
+        "arb_pct": 32.4
+      },
+      "65+": {
+        "adults_with_hypertension": 2046,
+        "ace_inhibitor_pct": 40.2,
+        "arb_pct": 33.2
+      }
+    }
+  },
+  "R10": {
+    "decision": "REJECT",
+    "articles": [
+      "54"
+    ],
+    "reason": "Developing or marketing nicotine products is prohibited (Art. 54).",
+    "answer": null
+  }
+}

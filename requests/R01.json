@@ -1,0 +1,19 @@
+{
+  "id": "R01",
+  "submitted": "2026-10-29T18:30:00+01:00",
+  "applicant": {
+    "name": "Dr. Sophie Lechner",
+    "organisation": "Danube Institute for Diabetes Research (university research group)",
+    "country": "AT"
+  },
+  "requested_as": "health data request",
+  "requested_format": "anonymised statistics",
+  "purpose": "We study regional differences in type 2 diabetes to plan a prevention programme with the regional health authorities.",
+  "question": "How many adults have type 2 diabetes in each region and what is the prevalence?",
+  "definitions": [
+    "Adult = aged 18 or older on 31 December 2025.",
+    "Type 2 diabetes = any condition with an ICD-10 code starting with E11.",
+    "Prevalence = adults with type 2 diabetes / all adults in the region × 100, one decimal.",
+    "Report per region: adults, adults with type 2 diabetes and the prevalence."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "R02",
+  "submitted": "2026-10-29T18:40:00+01:00",
+  "applicant": {
+    "name": "Markus Gruber",
+    "organisation": "Alpenland Versicherung AG, pricing department",
+    "country": "AT"
+  },
+  "requested_as": "health data request",
+  "requested_format": "anonymised statistics",
+  "purpose": "We want to align private health insurance premiums for customers with diabetes with their actual risk.",
+  "question": "What is the average HbA1c of adults with type 2 diabetes by 10-year age band?",
+  "definitions": [
+    "Adult = aged 18 or older on 31 December 2025.",
+    "Type 2 diabetes = any condition with an ICD-10 code starting with E11.",
+    "Age bands on 31 December 2025: 18-29, 30-39, 40-49, 50-59, 60-69, 70-79, 80+.",
+    "Use the latest HbA1c (LOINC 4548-4) per patient.",
+    "Report per band: adults with type 2 diabetes who have a HbA1c value and their mean HbA1c, one decimal."
+  ]
+}

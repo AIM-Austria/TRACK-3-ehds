@@ -1,0 +1,19 @@
+{
+  "id": "R05",
+  "submitted": "2026-10-29T19:20:00+01:00",
+  "applicant": {
+    "name": "Dr. Amir Hadžić",
+    "organisation": "GlucoSense, university spin-off developing clinical prediction software",
+    "country": "AT"
+  },
+  "requested_as": "health data access application",
+  "requested_format": "pseudonymised records",
+  "purpose": "We train and validate a model that predicts which patients with type 2 diabetes will have an HbA1c above 8% in the next 12 months, so that GPs can intervene earlier. Training needs individual-level histories; aggregates are not enough.",
+  "question": "Provide pseudonymised conditions, medications and HbA1c values for adults with type 2 diabetes who have at least one HbA1c value. We will only export model weights and performance metrics.",
+  "definitions": [
+    "Adult = aged 18 or older on 31 December 2025.",
+    "Type 2 diabetes = any condition with an ICD-10 code starting with E11.",
+    "Cohort = adults with type 2 diabetes who have at least one HbA1c value (LOINC 4548-4).",
+    "Report the size of the cohort you would make available."
+  ]
+}

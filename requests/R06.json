@@ -1,0 +1,18 @@
+{
+  "id": "R06",
+  "submitted": "2026-10-29T19:35:00+01:00",
+  "applicant": {
+    "name": "Thomas Berger",
+    "organisation": "Berger Logistik GmbH, HR department",
+    "country": "AT"
+  },
+  "requested_as": "health data access application",
+  "requested_format": "pseudonymised records",
+  "purpose": "We want to reduce sick leave. We will match the records with our employee list to see who has been diagnosed with depression before we renew contracts.",
+  "question": "Provide records of all adults with a depression diagnosis in Oberösterreich.",
+  "definitions": [
+    "Adult = aged 18 or older on 31 December 2025.",
+    "Depression = any condition with an ICD-10 code starting with F32.",
+    "Report for each patient in Oberösterreich: patient ID, birth date and date of the depression diagnosis."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "R07",
+  "submitted": "2026-10-29T19:50:00+01:00",
+  "applicant": {
+    "name": "Dr. Lukas Fischer",
+    "organisation": "National statistics office, health statistics unit",
+    "country": "AT"
+  },
+  "requested_as": "health data request",
+  "requested_format": "anonymised statistics",
+  "purpose": "Official statistics on hospital use for the annual health report.",
+  "question": "How many inpatient stays started in 2025, by the patient's region?",
+  "definitions": [
+    "Inpatient stay = encounter with type 'inpatient'.",
+    "Count stays (not patients) whose start_date is in 2025.",
+    "Report per region: inpatient stays."
+  ]
+}
